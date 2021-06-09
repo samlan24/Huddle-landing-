@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/images/bg-desktop.svg');
+    font-size: 15px;
+    background-repeat: no-repeat;
+
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    
+}
+
+ h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    background: #fff;
+    padding: 10px 60px;
+    border-radius: 25px;
+}
+ .logo{
+     margin: 50px 70px 0 70px;
+ }
+
+ .logo img{
+     width: 15%;
+ }
+
+ .card{
+     display: flex;
+     margin: auto;
+     margin:70px 70px;
+ }
+
+ .card-info{
+     flex-basis: 35%;
+     padding-left: 50px;
+     padding-top: 50px;
+     
+ }
+
+.card-info p{
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+ .btn{
+     margin-top: 30px;
+ }
